@@ -151,7 +151,7 @@ console.log(barbijos);
   
        let card = `
        <div class="col-sm-6 col-md-3" style="padding-top: 1.5rem;">
-          <div class="card conLink" onclick="detalleBuzo(${i},'buzos')">
+          <div class="card conLink" onclick="detalleRemera(${i},'buzos')">
                <img src="${prod.imagen}" class="card-img-top welcome-imagen" alt="">
                <div class="card-body">
                <h5 class="card-title welcome-titulo titulo-producto" alt="">${prod.nombre}</h5>
@@ -162,7 +162,7 @@ console.log(barbijos);
                <div class="welcome-color3" style="display: inline-block;"></div>                                        
 
                </div>
-               <div class="btn btn-primary welcome-vermas-producto"  onclick="detalleBuzo(${i},'buzos')"  >VER M&Aacute;S</div>
+               <div class="btn btn-primary welcome-vermas-producto"  onclick="detalleRemera(${i},'buzos')"  >VER M&Aacute;S</div>
                </div>
            </div>
        </div>`
