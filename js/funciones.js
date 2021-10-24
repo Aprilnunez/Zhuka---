@@ -11,8 +11,18 @@ const ocultarMensajeBanner = () => {
 }
 /* */
 
-const verMasCategoria = (m) =>{
-    window.location = 'productos.html'
+const verMasRemeras = (m) =>{
+    window.location = 'paginas/remeras.html'
+}
+const verMasBuzos = (m) =>{
+   window.location = 'paginas/buzos.html'
+}
+const verMasBarbijos = (m) =>{
+   window.location = 'paginas/barbijos.html'
+}
+
+const verMasGorras = (m) =>{
+   window.location = 'paginas/gorras.html'
 }
 
 const verProducto = (m) =>{
@@ -101,7 +111,7 @@ console.log(barbijos);
 
      let card = `
      <div class="col-sm-6 col-md-3" style="padding-top: 1.5rem;">
-        <div class="card conLink" onclick="detalleRemera(${i},'remeras')">
+        <div class="card conLink" onclick="detalleProducto(${i},'remeras')">
              <img src="${prod.imagen}" class="card-img-top welcome-imagen" alt="">
              <div class="card-body">
              <h5 class="card-title welcome-titulo titulo-producto" alt="">${prod.nombre}</h5>
@@ -111,7 +121,7 @@ console.log(barbijos);
              <div class="welcome-color2" style="display: inline-block;"></div>
              <div class="welcome-color3" style="display: inline-block;"></div>                                        
              </div>
-             <div class="btn btn-primary welcome-vermas-producto"  onclick="detalleRemera(${i},'remeras')"  >VER M&Aacute;S</div>
+             <div class="btn btn-primary welcome-vermas-producto"  onclick="detalleProducto(${i},'remeras')"  >VER M&Aacute;S</div>
              </div>
          </div>
      </div>`
@@ -151,7 +161,7 @@ console.log(barbijos);
   
        let card = `
        <div class="col-sm-6 col-md-3" style="padding-top: 1.5rem;">
-          <div class="card conLink" onclick="detalleRemera(${i},'buzos')">
+          <div class="card conLink" onclick="detalleProducto(${i},'buzos')">
                <img src="${prod.imagen}" class="card-img-top welcome-imagen" alt="">
                <div class="card-body">
                <h5 class="card-title welcome-titulo titulo-producto" alt="">${prod.nombre}</h5>
@@ -162,7 +172,7 @@ console.log(barbijos);
                <div class="welcome-color3" style="display: inline-block;"></div>                                        
 
                </div>
-               <div class="btn btn-primary welcome-vermas-producto"  onclick="detalleRemera(${i},'buzos')"  >VER M&Aacute;S</div>
+               <div class="btn btn-primary welcome-vermas-producto"  onclick="detalleProducto(${i},'buzos')"  >VER M&Aacute;S</div>
                </div>
            </div>
        </div>`
@@ -184,7 +194,6 @@ console.log(barbijos);
     })
    
     $('#buzos').append(toAppendBuzos.join(''))
-   
   
   /*
          ARRAY Gorras:

@@ -16,7 +16,7 @@ const productos = [
           "XL",
           "XXL",
        ],
-       imagen:"./imagenes/remera_backytub.jpg"
+       imagen:"../imagenes/remera_backytub.jpg"
     },
     {
       id:"2",
@@ -35,7 +35,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_falsita.jpg"
+      imagen:"../imagenes/remera_falsita.jpg"
    },
 
    {
@@ -55,7 +55,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_friends.jpg"
+      imagen:"../imagenes/remera_friends.jpg"
    },
 
    {
@@ -75,7 +75,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_goku 2.jpg"
+      imagen:"../imagenes/remera_goku 2.jpg"
    },
 
    {
@@ -95,7 +95,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_goku 4.jpg"
+      imagen:"../imagenes/remera_goku 4.jpg"
    },
 
    {
@@ -115,7 +115,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_blanquito.jpg"
+      imagen:"../imagenes/buzo_blanquito.jpg"
    },
 
    {
@@ -135,7 +135,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_haku.jpg"
+      imagen:"../imagenes/remera_haku.jpg"
    },
 
    {
@@ -155,7 +155,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_leonardo.jpg"
+      imagen:"../imagenes/remera_leonardo.jpg"
    },
 
    {
@@ -175,7 +175,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_lisa.jpg"
+      imagen:"../imagenes/remera_lisa.jpg"
    },
 
    {
@@ -195,7 +195,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_looney.jpg"
+      imagen:"../imagenes/remera_looney.jpg"
    },
 
    {
@@ -215,7 +215,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_messirve2.jpg"
+      imagen:"../imagenes/remera_messirve2.jpg"
    },
 
    {
@@ -235,7 +235,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_paciencia.jpg"
+      imagen:"../imagenes/remera_paciencia.jpg"
    },
 
    {
@@ -255,7 +255,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_seyra.jpg"
+      imagen:"../imagenes/remera_seyra.jpg"
    },
 
    {
@@ -275,7 +275,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_stich.jpg"
+      imagen:"../imagenes/remera_stich.jpg"
    },
 
    {
@@ -295,7 +295,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_backytub.jpg"
+      imagen:"../imagenes/remera_backytub.jpg"
    },
    {
       id:"16",
@@ -314,7 +314,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_545.jpg"
+      imagen:"../imagenes/remera_545.jpg"
    },
    {
       id:"17",
@@ -333,7 +333,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_564.jpg"
+      imagen:"../imagenes/remera_564.jpg"
    },
    {
       id:"18",
@@ -352,7 +352,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_EL BRAKING.jpg"
+      imagen:"../imagenes/remera_EL BRAKING.jpg"
    },
    {
       id:"19",
@@ -371,7 +371,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_el escobart.jpg"
+      imagen:"../imagenes/remera_el escobart.jpg"
    },
    {
       id:"20",
@@ -390,7 +390,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_simpson.jpg"
+      imagen:"../imagenes/remera_simpson.jpg"
    },
    {
       id:"21",
@@ -409,7 +409,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_la nasa pa.jpg"
+      imagen:"../imagenes/remera_la nasa pa.jpg"
    },
    {
       id:"22",
@@ -428,7 +428,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_rugrats.jpg"
+      imagen:"../imagenes/remera_rugrats.jpg"
    },
    {
       id:"23",
@@ -447,7 +447,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_serial.jpg"
+      imagen:"../imagenes/remera_serial.jpg"
    },
    {
       id:"24",
@@ -466,7 +466,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_escobart.jpg"
+      imagen:"../imagenes/remera_escobart.jpg"
    },
    {
       id:"25",
@@ -485,7 +485,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_sonreii.jpg"
+      imagen:"../imagenes/remera_sonreii.jpg"
    },
    {
       id:"26",
@@ -504,7 +504,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_mickey.jpg"
+      imagen:"../imagenes/remera_mickey.jpg"
    },
    {
       id:"27",
@@ -523,7 +523,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_apu.jpg"
+      imagen:"../imagenes/remera_apu.jpg"
    },
    {
       id:"28",
@@ -542,7 +542,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_grand rick.jpg"
+      imagen:"../imagenes/remera_grand rick.jpg"
    },
    {
       id:"29",
@@ -561,7 +561,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_PERSONA SIN GUITA.jpg"
+      imagen:"../imagenes/remera_PERSONA SIN GUITA.jpg"
    },
    {
       id:"30",
@@ -580,7 +580,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remra_BREAKING.jpg"
+      imagen:"../imagenes/remra_BREAKING.jpg"
    },
    {
       id:"31",
@@ -599,7 +599,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_dale una mas.jpg"
+      imagen:"../imagenes/remera_dale una mas.jpg"
    },
    {
       id:"32",
@@ -618,7 +618,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_resistence.jpg"
+      imagen:"../imagenes/remera_resistence.jpg"
    },
    {
       id:"33",
@@ -637,7 +637,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_rollllings.jpg"
+      imagen:"../imagenes/remera_rollllings.jpg"
    },
    {
       id:"34",
@@ -656,7 +656,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_ART IS NOT A CRIME.jpg"
+      imagen:"../imagenes/remera_ART IS NOT A CRIME.jpg"
    },
    {
       id:"35",
@@ -675,7 +675,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_i trip 2.jpg"
+      imagen:"../imagenes/remera_i trip 2.jpg"
    },
    {
       id:"36",
@@ -694,7 +694,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_ahorasi.jpg"
+      imagen:"../imagenes/remera_ahorasi.jpg"
    },
    {
       id:"37",
@@ -713,7 +713,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_anxiety.jpg"
+      imagen:"../imagenes/remera_anxiety.jpg"
    },
    {
       id:"38",
@@ -732,7 +732,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_nirvana.jpg"
+      imagen:"../imagenes/remera_nirvana.jpg"
    },
    {
       id:"39",
@@ -751,7 +751,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/remera_you are fucked.jpg"
+      imagen:"../imagenes/remera_you are fucked.jpg"
    },
    {
       id:"40",
@@ -770,7 +770,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_chicles.jpg"
+      imagen:"../imagenes/buzo_chicles.jpg"
    },
    {
       id:"41",
@@ -789,7 +789,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_BLANCQUITO.jpg"
+      imagen:"../imagenes/buzo_BLANCQUITO.jpg"
    },
    {
       id:"42",
@@ -808,7 +808,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_blanquito.jpg"
+      imagen:"../imagenes/buzo_blanquito.jpg"
    },
    {
       id:"43",
@@ -827,7 +827,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_mona.jpg"
+      imagen:"../imagenes/buzo_mona.jpg"
    },
    {
       id:"44",
@@ -846,7 +846,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_greeys.jpg"
+      imagen:"../imagenes/buzo_greeys.jpg"
    },
    {
       id:"45",
@@ -865,7 +865,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_callejeros.jpg"
+      imagen:"../imagenes/buzo_callejeros.jpg"
    },
    {
       id:"46",
@@ -884,7 +884,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_catsilla.jpg"
+      imagen:"../imagenes/buzo_catsilla.jpg"
    },
    {
       id:"47",
@@ -903,7 +903,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_el jordan.jpg"
+      imagen:"../imagenes/buzo_el jordan.jpg"
    },
    {
       id:"48",
@@ -922,7 +922,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_el mack.jpg"
+      imagen:"../imagenes/buzo_el mack.jpg"
    },
    {
       id:"49",
@@ -941,7 +941,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_en gronee.jpg"
+      imagen:"../imagenes/buzo_en gronee.jpg"
    },
    {
       id:"50",
@@ -960,7 +960,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_harvard.jpg"
+      imagen:"../imagenes/buzo_harvard.jpg"
    },
    {
       id:"51",
@@ -979,7 +979,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_la renga adelante.jpg"
+      imagen:"../imagenes/buzo_la renga adelante.jpg"
    },
    {
       id:"52",
@@ -998,7 +998,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_lo popiioo.jpg"
+      imagen:"../imagenes/buzo_lo popiioo.jpg"
    },
    {
       id:"53",
@@ -1017,7 +1017,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_nasa.jpg"
+      imagen:"../imagenes/buzo_nasa.jpg"
    },
    {
       id:"54",
@@ -1036,7 +1036,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_nike.jpg"
+      imagen:"../imagenes/buzo_nike.jpg"
    },
    {
       id:"55",
@@ -1055,7 +1055,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_nirvana 1.jpg"
+      imagen:"../imagenes/buzo_nirvana 1.jpg"
    },
    {
       id:"56",
@@ -1074,7 +1074,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_riverr.jpg"
+      imagen:"../imagenes/buzo_riverr.jpg"
    },
    {
       id:"57",
@@ -1093,7 +1093,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_rolling.jpg"
+      imagen:"../imagenes/buzo_rolling.jpg"
    },
    {
       id:"58",
@@ -1112,7 +1112,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_SIGNAL.jpg"
+      imagen:"../imagenes/buzo_SIGNAL.jpg"
    },
    {
       id:"59",
@@ -1131,7 +1131,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_trust meee.jpg"
+      imagen:"../imagenes/buzo_trust meee.jpg"
    },
    {
       id:"60",
@@ -1150,7 +1150,7 @@ const productos = [
          "XL",
          "XXL",
       ],
-      imagen:"./imagenes/buzo_vansss.jpg"
+      imagen:"../imagenes/buzo_vansss.jpg"
    },
    {
       id:"61",
@@ -1159,7 +1159,7 @@ const productos = [
       precio: 950,
       color: "",
       talla:"",
-      imagen:"./imagenes/gorra_duckmother.jpg"
+      imagen:"../imagenes/gorra_duckmother.jpg"
    },
    {
       id:"62",
@@ -1168,7 +1168,7 @@ const productos = [
       precio: 950,
       color: "",
       talla:"",
-      imagen:"./imagenes/gorra_fernet.jpg"
+      imagen:"../imagenes/gorra_fernet.jpg"
    },
    {
       id:"63",
@@ -1177,7 +1177,7 @@ const productos = [
       precio: 950,
       color: "",
       talla:"",
-      imagen:"./imagenes/gorra_rollings.jpg"
+      imagen:"../imagenes/gorra_rollings.jpg"
    },
    {
       id:"64",
@@ -1186,7 +1186,7 @@ const productos = [
       precio: 950,
       color: "",
       talla:"",
-      imagen:"./imagenes/gorras.jpg"
+      imagen:"../imagenes/gorras.jpg"
    },
    {
       id:"65",
@@ -1195,7 +1195,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_among_us.jpg"
+      imagen:"../imagenes/barbijo_among_us.jpg"
    },
    {
       id:"66",
@@ -1204,7 +1204,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_bici.jpg"
+      imagen:"../imagenes/barbijo_bici.jpg"
    },
    {
       id:"67",
@@ -1213,7 +1213,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_Valhalla.jpg"
+      imagen:"../imagenes/barbijo_Valhalla.jpg"
    },
    {
       id:"68",
@@ -1222,7 +1222,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_emosido.jpg"
+      imagen:"../imagenes/barbijo_emosido.jpg"
    },
    {
       id:"69",
@@ -1231,7 +1231,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_friends.jpg"
+      imagen:"../imagenes/barbijo_friends.jpg"
    },
    {
       id:"70",
@@ -1240,7 +1240,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_vino.jpg"
+      imagen:"../imagenes/barbijo_vino.jpg"
    },
    {
       id:"71",
@@ -1249,7 +1249,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_no mercy.jpg"
+      imagen:"../imagenes/barbijo_no mercy.jpg"
    },
    {
       id:"72",
@@ -1258,7 +1258,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_paciencia.jpg"
+      imagen:"../imagenes/barbijo_paciencia.jpg"
    },
    {
       id:"73",
@@ -1267,7 +1267,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_2estampas.jpg"
+      imagen:"../imagenes/barbijo_2estampas.jpg"
    },
    {
       id:"74",
@@ -1276,7 +1276,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_estasdemasiadocerca.jpg"
+      imagen:"../imagenes/barbijo_estasdemasiadocerca.jpg"
    },
    {
       id:"75",
@@ -1285,7 +1285,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_red.jpg"
+      imagen:"../imagenes/barbijo_red.jpg"
    },
    {
       id:"76",
@@ -1294,7 +1294,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_vivas.jpg"
+      imagen:"../imagenes/barbijo_vivas.jpg"
    },
    {
       id:"77",
@@ -1303,7 +1303,7 @@ const productos = [
       precio: 450,
       color: "",
       talla:"",
-      imagen:"./imagenes/barbijo_demasiadocerca.jpg"
+      imagen:"../imagenes/barbijo_demasiadocerca.jpg"
    },
    
 

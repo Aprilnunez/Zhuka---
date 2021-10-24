@@ -1,28 +1,3 @@
-// CAPTURO EL CONTENEDOR DE LOS DETALLES/PRODUCTO
-const contenedorProducto = document.querySelector('#contenedorProducto');
-const contenedorRemera = document.querySelector('#contenedorRemera');
-const contenedorBuzo = document.querySelector('#contenedorBuzo');
-
-// CAPTURO LOS PARAMETROS DE LA URL
-const urlSearchParams = new URLSearchParams(window.location.search);
-const params = Object.fromEntries(urlSearchParams.entries());
-// EL ID EN REALIDAD ES EL INDICE DEL PRODUCTO DENTRO DE SU ARREGLO
-let idProducto = params.id;
-let categoriaProducto = params.categoria;
-let producto;
-
-if(categoriaProducto == 'remeras'){
-    producto = remeras[idProducto];
-}else if(categoriaProducto == 'buzos'){
-    producto = buzos[idProducto];
-}else if(categoriaProducto == 'gorras'){
-    producto = gorras[idProducto];
-}else{
-    producto = barbijos[idProducto];
-}
-
-console.log(producto);
-
 
 function CambiarTexto(id){
     $('#divTituloComoComprar').removeClass("active");
@@ -47,10 +22,34 @@ function CambiarTexto(id){
         $('#divTituloFormas').addClass("active");
     }
 }
+// CAPTURO EL CONTENEDOR DE LOS DETALLES/PRODUCTO
+const contenedorProducto = document.querySelector('#contenedorProducto');
 
-//----------------REMERAS---------------------------------------------------------------------------------------//
+// CAPTURO LOS PARAMETROS DE LA URL
+const urlSearchParams = new URLSearchParams(window.location.search);
+const params = Object.fromEntries(urlSearchParams.entries());
+// EL ID EN REALIDAD ES EL INDICE DEL PRODUCTO DENTRO DE SU ARREGLO
+let idProducto = params.id;
+let categoriaProducto = params.categoria;
+let producto;
 
-let productoDetalleRemera = `
+if(categoriaProducto == 'remeras'){
+    producto = remeras[idProducto];
+}else if(categoriaProducto == 'buzos'){
+    producto = buzos[idProducto];
+}else if(categoriaProducto == 'gorras'){
+    producto = gorras[idProducto];
+}else{
+    producto = barbijos[idProducto];
+}
+
+console.log(producto);
+
+
+
+//----------------DETALLE DE LOS PRODUCTOS------------------------------------------------------------------------------------//
+
+let productoDetalle = `
     <div class="col-sm-12 col-md-5">
         <img src="${producto.imagen}" class="card-img-top detalle-imagen" alt="">
     </div>
@@ -66,7 +65,7 @@ let productoDetalleRemera = `
     
     // SI EL PRODUCTO TIENE COLORES LOS AGREGO, SINO LOS DEJO EN BLANCO
     if(producto.color != ''){
-            productoDetalleRemera += `
+            productoDetalle += `
             <div style="padding-top:2rem;"> 
             
             <h5 class="card-title welcome-titulo">Colores</h5>   
@@ -78,7 +77,7 @@ let productoDetalleRemera = `
 
     if(producto.color != ''){
       producto.color.forEach(color => {
-          productoDetalleRemera += `
+          productoDetalle += `
           <div class="welcome-color mx-1" style="display: inline-block; background:${color.codigo}"></div>`;
       });
   }
@@ -88,7 +87,7 @@ let productoDetalleRemera = `
   if(producto.talla != ''){
     
 
-    productoDetalleRemera += `
+    productoDetalle += `
                             </div>
                         </div>
                         <div style="padding-top:2rem;"> 
@@ -99,7 +98,7 @@ let productoDetalleRemera = `
     // SI EL PRODUCTO TIENE TALLES LOS AGREGO, SINO LOS DEJO EN BLANCO
     if(producto.talla != ''){
         producto.talla.forEach(talla => {
-            productoDetalleRemera += `<div class="detalle-talle" style="display: inline-block;">${talla}</div>`;
+            productoDetalle += `<div class="detalle-talle" style="display: inline-block;">${talla}</div>`;
         });
     };                          
   
@@ -107,7 +106,7 @@ let productoDetalleRemera = `
 
     if(categoriaProducto == 'remeras'){
 
-     productoDetalleRemera +=` 
+     productoDetalle +=` 
 
                                  </div>
                              </div>
@@ -119,8 +118,8 @@ let productoDetalleRemera = `
                                  <div class="modal-dialog">
                                    <div class="modal-content"  style="background-color:transparent;">                                
                                      <div class="modal-body">
-                                       <img src="imagenes/tallesremeraadulto.jpg" width="800px" height="520px">
-                                       <img src="imagenes/talles remeras ninos.jpg" width="800px" height="520px">
+                                       <img src="../imagenes/tallesremeraadulto.jpg" width="800px" height="520px">
+                                       <img src="../imagenes/talles remeras ninos.jpg" width="800px" height="520px">
      
                                      </div>                                
                                    </div>
@@ -133,7 +132,7 @@ let productoDetalleRemera = `
 
 
       }else if(categoriaProducto == 'buzos'){
-      productoDetalleRemera +=` 
+      productoDetalle +=` 
         </div>
         </div>
         <div style="padding-top:2rem;">
@@ -144,7 +143,7 @@ let productoDetalleRemera = `
             <div class="modal-dialog">
               <div class="modal-content"  style="background-color:transparent;">                                
                 <div class="modal-body">
-                  <img src="imagenes/talles buzos.jpg" width="800px" height="520px">
+                  <img src="../imagenes/talles buzos.jpg" width="800px" height="520px">
 
                 </div>                                
               </div>
@@ -158,7 +157,7 @@ let productoDetalleRemera = `
 
 
                           }                   
-productoDetalleRemera +=` 
+productoDetalle +=` 
 
                          <div style="padding-top:2rem; margin-left: 4rem;" >                         
                      <a href="https://api.whatsapp.com/send?phone=542804832617" target="_blank" rel="noreferrer noopener" aria-label="Whatsapp" class="btn btn-primary btn-consultar-producto"><i >Consultar</i></a> 
@@ -171,5 +170,5 @@ productoDetalleRemera +=`
                     `;
   
 // CARGO LA ESTRUCTURA AL HTML.
-contenedorRemera.innerHTML = productoDetalleRemera;      
+contenedorProducto.innerHTML = productoDetalle;      
 

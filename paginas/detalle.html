@@ -21,10 +21,10 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="stylesheet" href="../css/fontawesome.css">
 
-	<link rel="stylesheet" href="css/miestilo.css">
-    <link rel="stylesheet" href="css/productos.css">
+	<link rel="stylesheet" href="../css/miestilo.css">
+    <link rel="stylesheet" href="../css/productos.css">
 </head>
 	
 <body>	
@@ -32,27 +32,28 @@
 <div class="principal">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid menu">
-            <a class="navbar-brand logoNav" href="./index.html"><img src="./imagenes/logo/logo-sin-fondo.png"  height="80px" id="logoZhuka"></a>
+            <a class="navbar-brand logoNav" href="./index.html"><img src="../imagenes/logo/logo-sin-fondo.png"  height="80px" id="logoZhuka"></a>
             <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+                <a class="nav-link" aria-current="page" href="./index.html">INICIO</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="index.html">NOSOTROS</a>
+                <a class="nav-link" href="./index.html">NOSOTROS</a>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     PRODUCTOS
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#" onclick="verMasCategoria('remeras')">Remeras</a></li>
-                    <li><a class="dropdown-item" href="#" onclick="verMasCategoria('buzos')">Buzos</a></li>
-                    <li><a class="dropdown-item" href="#" onclick="verMasCategoria('gorras')">Gorras</a></li>
-                    <li><a class="dropdown-item" href="#" onclick="verMasCategoria('barbijos')">Barbijos</a></li>
+                    <li><a class="dropdown-item" href="./remeras.html"  >Remeras</a></li>
+                    <li><a class="dropdown-item" href="./buzos.html" >Buzos</a></li>
+                    <li><a class="dropdown-item" href="./gorras.html" >Gorras</a></li>
+                    <li><a class="dropdown-item" href="./barbijos.html" >Barbijos</a></li>
+
                 </ul>
                 </li>
                 <li class="nav-item">
@@ -75,7 +76,7 @@
 				<div class="col-12"> 
 					<div class="container-fluid">
               <div class="row ">
-              <div class="col-sm-6 col-md-3" ><span class="lineaMenu">Inicio</span>&nbsp;|&nbsp;<span class="lineaMenu">Productos</span>&nbsp;|&nbsp;<span class="lineaMenu">Remeras</span>&nbsp;|&nbsp;<span class="lineaMenu-activo">Buzo Chicle</span></div>
+              <!-- <div class="col-sm-6 col-md-3" ><span class="lineaMenu">Inicio</span>&nbsp;|&nbsp;<span class="lineaMenu">Productos</span>&nbsp;|&nbsp;<span class="lineaMenu">Remeras</span>&nbsp;|&nbsp;<span class="lineaMenu-activo"></span></div> -->
               </div>
           </div>
         </div>
@@ -90,10 +91,8 @@
       <div class="col-12" >
         <div class="container-fluid">
 
-          <div class="row"  id="contenedorRemera">
 
             <div class="row" id="contenedorProducto" >
-                <div class="row" id="contenedorBuzo" >
 
 
 
@@ -143,7 +142,7 @@
               <div class="row ">
 							  <div class="col-sm-6 col-md-3" style="padding-top: 1.5rem;">
                                 <div class="card conLink" onclick="verProducto(1)">
-                                    <img src="imagenes/buzo_chicles.jpg" class="card-img-top welcome-imagen" alt="">
+                                    <img src="/imagenes/buzo_chicles.jpg" class="card-img-top welcome-imagen" alt="">
                                     <div class="card-body">
                                       <h5 class="card-title welcome-titulo">Buzo Chicle</h5>
                                       <span class="card-title welcome-precio">$999</span>
@@ -159,7 +158,7 @@
 							</div>
 							<div class="col-sm-6 col-md-3" style="padding-top: 1.5rem;">
                                 <div class="card conLink" onclick="verProducto(1)">
-                                    <img src="imagenes/buzo_chicles.jpg" class="card-img-top welcome-imagen" alt="">
+                                    <img src="/imagenes/buzo_chicles.jpg" class="card-img-top welcome-imagen" alt="">
                                     <div class="card-body">
                                       <h5 class="card-title welcome-titulo">Buzo Chicle</h5>
                                       <span class="card-title welcome-precio">$999</span>
@@ -175,7 +174,7 @@
 							</div>
                             <div class="col-sm-6 col-md-3" style="padding-top: 1.5rem;">
                                 <div class="card conLink" onclick="verProducto(1)">
-                                    <img src="imagenes/buzo_chicles.jpg" class="card-img-top welcome-imagen" alt="">
+                                    <img src="/imagenes/buzo_chicles.jpg" class="card-img-top welcome-imagen" alt="">
                                     <div class="card-body">
                                       <h5 class="card-title welcome-titulo">Buzo Chicle</h5>
                                       <span class="card-title welcome-precio">$999</span>
@@ -190,7 +189,7 @@
 							</div>
                             <div class="col-sm-6 col-md-3" style="padding-top: 1.5rem;">
                                 <div class="card conLink" onclick="verProducto(1)">
-                                    <img src="imagenes/buzo_chicles.jpg" class="card-img-top welcome-imagen" alt="">
+                                    <img src="/imagenes/buzo_chicles.jpg" class="card-img-top welcome-imagen" alt="">
                                     <div class="card-body">
                                       <h5 class="card-title welcome-titulo">Buzo Chicle</h5>
                                       <span class="card-title welcome-precio">$999</span>
@@ -220,7 +219,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-3 footer-grids text-center">
-				<img src="imagenes/logo/logo-sin-fondo.png"  height="120px" />				
+				<img src="/imagenes/logo/logo-sin-fondo.png"  height="120px" />				
 			</div>
 			<div class="col-3 footer-grids text-center">
 				<h3>Contactanos</h3>
@@ -234,9 +233,9 @@
 				<h3>Menu</h3>
 				<hr class="footer-line" />	
 				<ul>
-					<li><a href="#an_nosotros">Nosotros</a></li>
-					<li><a href="#an_productos">Productos</a></li>
-					<li><a href="#an_contacto">Contacto</a></li>
+					<li><a href="/index.html#an_nosotros">Nosotros</a></li>
+					<li><a href="/index.html#an_productos">Productos</a></li>
+					<li><a href="/index.html#an_contacto">Contacto</a></li>
 				</ul>
 			</div>
 			<div class="col-3 footer-grids text-center">
@@ -256,15 +255,15 @@
 
 <div class="footer" id="footerMo" style="display: none;">
     <table width="100%">
-        <tr><td align="center"><img src="imagenes/logo/logo-sin-fondo.png"  height="120px" /></td></tr>
-        <tr><td  align="center">
+      <tr><td align="center">				<img src="imagenes/logo/logo-sin-fondo.png"  height="120px" /></td></tr>
+      <tr><td  align="center">
             <a href="https://api.whatsapp.com/send?phone=542804832617" target="_blank" rel="noreferrer noopener" aria-label="Whatsapp"><i class="fab fa-whatsapp logoRedSocial"></i></a>
 			<a href="https://www.facebook.com/donzhuka-104772555197050/" target="_blank" rel="noreferrer noopener" aria-label="Facebook"><i class="fab fa-facebook logoRedSocial" ></i></a>
 			<a href="https://www.instagram.com/donzhuka/" target="_blank" rel="noreferrer noopener" aria-label="Instagram"><i class="fab fa-instagram logoRedSocial"></i></a>
         </td></tr>
-        <tr><td align="center"><a href="#an_nosotros">Nosotros</a></td></tr>
-        <tr><td align="center"><a href="#an_productos">Productos</a></td></tr>
-        <tr><td align="center"><a href="#an_contacto">Contacto</a></td></tr>
+        <tr><td align="center"><a href="/index.html#an_nosotros">Nosotros</a></td></tr>
+        <tr><td align="center"><a href="/index.html#an_productos">Productos</a></td></tr>
+        <tr><td align="center"><a href="/index.html#an_contacto">Contacto</a></td></tr>
         <tr><td align="center">Tel 2804832617</td></tr>
         <tr><td align="center">Rawson, Chubut</td></tr>
     </table>
@@ -278,10 +277,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="./js/productos.js"></script>
+<script src="../js/productos.js"></script>
 
-<script src="./js/funciones.js"></script> 
-<script src="./js/detalle.js"></script> 
+<script src="../js/funciones.js"></script> 
+<script src="../js/detalle.js"></script> 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RXBFH5P44B"></script>
 	<script>
