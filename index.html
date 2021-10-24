@@ -61,7 +61,7 @@
                 </li>
             </ul>
             <form class="d-flex">
-                <input class="form-control me-2"  type="text" placeholder="Buscar productos" aria-label="Buscar">                 
+                <input class="form-control me-2"  type="text" id="buscador" placeholder="Buscar productos" aria-label="Buscar">                 
             </form>
             </div>
         </div>
@@ -311,6 +311,21 @@
 
 <script src="./js/funciones.js"></script>
 <script src="./js/productos.js"></script>
+
+
+
+<!-- BUSCADOR --------------------------------------------->
+<script>
+    $(document).ready(function(){
+      $("#buscador").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+    </script>
+
 
 <!-- Mail -->
 
